@@ -16,12 +16,12 @@ int main() {
         }
     }
 
-    // ¶ÔËùÓĞID½øĞĞÅÅĞò
+     // å¯¹æ‰€æœ‰IDè¿›è¡Œæ’åº
     sort(ids.begin(), ids.end());
 
     int duplicateID = 0, missingID = 0;
 
-    // ÕÒ³öÖØºÅºÍ¶ÏºÅ
+    // æ‰¾å‡ºé‡å·å’Œæ–­å·
     for (int i = 1; i < ids.size(); ++i) {
         if (ids[i] == ids[i - 1]) {
             duplicateID = ids[i];
